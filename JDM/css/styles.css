@@ -132,7 +132,7 @@ footer {
     
 button {
   
-    background-color: #EF233C; /* Green */
+    background-color: #820000; /* Green */
     border: none;
     color: white;
     padding: 2% 4%;
@@ -149,7 +149,7 @@ button {
 }
 
 .button1 {
-    background-color: #EF233C; 
+    background-color: #820000; 
     color: white; 
     border: none;
 }
@@ -258,6 +258,18 @@ display: inline-block;
 .opener {
     background: #8D99AE;
 }
+
+table {
+   
+    height: 400px;
+    font-size: 60px;
+    padding: 20px;
+    
+ 
+}
+.sponsorships {
+    background-color: #35a82f;
+}
 /* Scrolling images 
 --------------------------------------------*/
 
@@ -303,7 +315,7 @@ height: 50%;
   font-size: 10px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-    background-color: #EF233C; 
+    background-color: #820000; 
     color: white; 
     border: none;
     right: 0%;
@@ -396,9 +408,111 @@ height: 50%;
   to {opacity: 1}
 }
 
+/*//------------Form Fillout-----------------------------------------*/
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+.registration_container {
+    margin: 0;
+    padding: 16px;
+}
 
 
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
 
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+/*---------image grid-----------------------------------------------------------*/
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
 
 
 
