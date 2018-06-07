@@ -119,7 +119,7 @@ header h1, header h2 {
 /* footer */
 footer {
     text-align: center;
-    color: white;
+    color:  ;
 }
 .contact-info a {
     padding: 10px;
@@ -259,17 +259,25 @@ display: inline-block;
     background: #8D99AE;
 }
 
-table {
-   
-    height: 400px;
-    font-size: 60px;
-    padding: 20px;
-    
- 
-}
+
 .sponsorships {
     background-color: #35a82f;
 }
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+
+registerInput {
+    display: block;
+  float: right;
+}
+
+
 /* Scrolling images 
 --------------------------------------------*/
 
@@ -280,7 +288,7 @@ table {
   max-width: 100%;
   position: relative;
   margin: auto;
-height: 50%;
+height: 10%;
 }
 
 /* Hide the images by default */
@@ -413,20 +421,62 @@ height: 50%;
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
 }
 
 .registration_container {
-    margin: 0;
-    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 75px;
+    border: none;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
+    padding-bottom:100px;
+
 }
+
+.rightOfTable {
+    display: table;
+    float: left;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 500px;
+    padding-right: 300px;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 75px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 100px;
+}
+
+
 
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -438,10 +488,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
+
 
 /* Set a style for the submit/register button */
 .registerbtn {
@@ -453,6 +500,7 @@ hr {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+    resize: 100px
 }
 
 .registerbtn:hover {

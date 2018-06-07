@@ -49,50 +49,44 @@
 		4px -4px 0 #000,
 		-4px 4px 0 #000,
 		4px 4px 0 #000;">Sponsorships</h1>
-  <table>
-    <tr>
-      <th style="font-size: 100px">Organization Name</th>
-      <th style="font-size: 100px">Organization Contact</th>
-      <th style="font-size: 100px">Money Raised</th>
-    </tr>
-    <tr>
-      <td>Title Sponsor</td>
-      <td>4some, Hole Sponsor, Logo on golf apparel</td>
-      <td>$2,500</td>
-      
-    </tr>
-    <tr>
-      <td>Hole-In-One</td>
-      <td>4some, Hole Sponsor, Ball Sponsor</td>
-      <td>$1,500</td>
-      
-    </tr>
-    <tr>
-      <td>Eagle</td>
-      <td>4some, Hole Sponsor, Towel Sponsor</td>
-      <td>$1,500</td>
-
-    </tr>
-       <tr>
-      <td>Birdie</td>
-      <td>4some, Hole Sponsor</td>
-      <td>$750</td>
-
-    </tr>
-       <tr>
-      <td>Hole Sponsor</td>
-      <td></td>
-      <td>$150</td>
-
-    </tr>
-       <tr>
-      <td>Golfer</td>
-      <td>Green and cart fees, 2 drink tickets, jumbo hot dog and chips, open bar and buffet to follow</td>
-      <td>$125</td>
-
-    </tr>
-   
-  </table>
+  <table id="customers">
+  <tr>
+    <th>Sponsorship Type</th>
+    <th>Included with Sponsorship</th>
+    <th>Cost of Sponsorship</th>
+  </tr>
+  <tr>
+    <td>Title Sponsor</td>
+    <td>4some, Hole Sponsor, Logo on golf apparel</td>
+    <td>$2,500</td>
+  </tr>
+  <tr>
+    <td>Hole-In-One</td>
+    <td>4some, Hole Sponsor, Ball Sponsor</td>
+    <td>$1,500</td>
+  </tr>
+  <tr>
+    <td>Eagle</td>
+    <td>4some, Hole Sponsor, Towel Sponsor</td>
+    <td>$1,500</td>
+  </tr>
+  <tr>
+    <td>Birdie</td>
+    <td>4some, Hole Sponsor</td>
+    <td>$750</td>
+  </tr>
+  <tr>
+    <td>Hole Sponsor</td>
+    <td>Hole Sponsor</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Golfer</td>
+    <td>Golfer</td>
+    <td>$125</td>
+  </tr>
+  
+</table>
 </div>
 
      
@@ -102,12 +96,14 @@
         
             <section class ="work">
         <div class="content-wrap">
-        <h2>Ways to pay</h2>
-        <h1>Please return form with payment by June 3, 2018 to receive a free drink ticket</h1>    
+        <h1>Ways to pay</h1>
+        <h2>Pay by June 3, 2018 to receive a free drink ticket!</h2>    
          
         
         <p>Online via Venmo (JDM Foundation) or Paypall</p>
             <p>Snailmail: The JDM Memorial Foundation <br>P.O. Box 759 <br>Havertown, PA 19063</p>
+            <p>Pay via cash or check the day of</p>
+            <p style="color: red;">Online payment coming soon!</p>
         </div>
                 
                 
@@ -116,61 +112,69 @@
                 
                 
     </section>
+         
+<h1 style="text-align: center;">Register</h1>         
 <form action="action_page.php">
+    
   <div class="registration_container">
-    <h1>Register</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
+   <h2 style="font-size: 100px; padding-top: 0px; margin-top: 0px">Golfer info <br></h2>
+   
+<tr>
+    <table>
+    <input class="regsiterInput" type="text" placeholder="Enter Name" name="name" style="width: 1000px; height: 100px;font-size: 50px" required> 
+ </table>
+    
+    <table>
+   <input class="regsiterInput" type="text" placeholder="Enter Title" name="title" style="width: 1000px; height: 100px;font-size: 50px" required>
+         </table>
 
-    <label for="name"><b>Name <br></b></label>
-    <input type="text" placeholder="Enter Name" name="name" style="width: 500px" required>
-
-    <label for="title"><b><br>Title<br></b></label>
-    <input type="text" placeholder="Enter Title" name="title" style="width: 500px" required>
-
-    <label for="company"><b><br>Company<br></b></label>
-    <input type="text" placeholder="Enter Company" name="company" style="width: 500px" required>
+    <table>
+    <input class="regsiterInput" type="text" placeholder="Enter Company" name="company" style="width: 1000px; height: 100px;font-size: 50px" required>
+    </table>
       
-       <label for="address"><b><br>Address<br></b></label>
-    <input type="text" placeholder="Enter Address" name="address" style="width: 500px" required>
+    <table>
+    <input class="regsiterInput" type="text" placeholder="Enter Address" name="address" style="width: 1000px; height: 100px;font-size: 50px" required>
+    </table>
       
-       <label for="telephone"><b><br>Telephone<br></b></label>
-    <input type="text" placeholder="Enter Telephone" name="telephone" style="width: 500px" required>
+    <table>
+    <input class="regsiterInput" type="text" placeholder="Enter Telephone" name="telephone" style="width: 1000px; height: 100px;font-size: 50px" required>
+    </table>
       
-       <label for="email"><b><br>Email<br></b></label>
-    <input type="text" placeholder="Enter Email" name="email" style="width: 500px" required>
+    <table>
+    <input class="regsiterInput" type="text" placeholder="Enter Email" name="email" style="width: 1000px; height: 100px;font-size: 50px" required>
+    </table>
 
       
-      
-       <section class="sponsorships">
-
-  <table>
+      </tr>
+    </div>
+       
+<div class="rightOfTable">
+  <table align="right;">
     <tr>
-      <th style="font-size: 100px">Foursome Golfers</th>
+      <h2 style="font-size: 100px; padding-top: 0px; margin-top: 0px">Foursome Golfers</h2>
 
+    </tr>
+    <tr>
+      <td><input type="text" placeholder="Golfer 1 (yourself)" name="golfers" style="margin: 20px; width: 500px; height: 100px;font-size: 50px"></td>
+      <td><input type="text" placeholder="Golfer 2" name="golfers" style="margin-left: 200px; width: 500px; height: 100px;font-size: 50px"></td>
+      
+      
+    </tr>
+    <tr>
+      <td><input type="text" placeholder="Golfer 3" name="golfers" style="margin: 20px; width: 500px; height: 100px; font-size: 50px"></td>
+      <td><input type="text" placeholder="Golfer 4" name="golfers" style="margin-left: 200px; width: 500px; height: 100px;font-size: 50px"></td>
      
-    </tr>
-    <tr>
-      <td><input type="text" placeholder="Golfer 1 (yourself)" name="golfers" style="margin: 20px; width: 500px"></td>
-      <td><input type="text" placeholder="Golfer 2" name="golfers" style="margin-left: 200px; width: 500px"></td>
-      
-      
-    </tr>
-    <tr>
-      <td><input type="text" placeholder="Golfer 3" name="golfers" style="margin: 20px; width: 500px"></td>
-      <td><input type="text" placeholder="Golfer 4" name="golfers" style="margin-left: 200px; width: 500px"></td>
-      
       
     </tr>
       
-    <hr>
+ 
 
            </table>
-      <input type="submit" value="Submit">
+</div>
+  
+      <input type="submit" value="Submit" style="width: 500px; height: 100px;font-size: 50px; display: block; border: solid; margin-left: auto; margin-right: auto;">
       
-      </section>
-    </div>     
-      </form>
+
 
 
 
